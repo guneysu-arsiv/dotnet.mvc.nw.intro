@@ -1,7 +1,8 @@
-﻿using Microsoft.Owin;
+﻿using mvc.giris.nw;
+using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(mvc.giris.nw.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 namespace mvc.giris.nw
 {
     public partial class Startup

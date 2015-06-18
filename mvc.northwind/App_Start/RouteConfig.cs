@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace mvc.giris.nw
+namespace mvc.northwind
 {
     public class RouteConfig
     {

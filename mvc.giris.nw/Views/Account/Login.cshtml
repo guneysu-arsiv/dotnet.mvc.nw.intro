@@ -1,5 +1,5 @@
 ﻿@using mvc.giris.nw.Models
-@model LoginViewModel
+@model mvc.giris.nw.Models.LoginViewModel
 @{
     ViewBag.Title = "Log in";
 }
@@ -19,7 +19,7 @@
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
-                    </div>
+                    </div>1
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc.giris.nw", "mvc.giris.nw\mvc.giris.nw.csproj", "{1DEF9381-8C7A-47E3-BF52-28475B7D6279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc.northwind", "mvc.northwind\mvc.northwind.csproj", "{B27B651D-08D7-4A33-8DA1-0EF4039BD0DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1DEF9381-8C7A-47E3-BF52-28475B7D6279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEF9381-8C7A-47E3-BF52-28475B7D6279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEF9381-8C7A-47E3-BF52-28475B7D6279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27B651D-08D7-4A33-8DA1-0EF4039BD0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27B651D-08D7-4A33-8DA1-0EF4039BD0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27B651D-08D7-4A33-8DA1-0EF4039BD0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27B651D-08D7-4A33-8DA1-0EF4039BD0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
