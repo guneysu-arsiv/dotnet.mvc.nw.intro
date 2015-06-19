@@ -4,10 +4,35 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+
+    <link href="../../Content/Skeleton/base.css" rel="stylesheet" />
+    <link href="../../Content/Skeleton/skeleton.css" rel="stylesheet" />
+
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            nav ul li {
+                display: inline;
+            }
+    </style>
 </head>
 <body>
 
-    <div id="wrapper">
+    <div class="container">
+        <nav>
+            <ul>
+                <li> <a href="/Category">Category</a> </li>
+                <li> <a href="/Product">Product</a> </li>
+                <li> <a href="/Shipper">Shipper</a> </li>
+                <li> <a href="/Employee">Employee</a> </li>
+            </ul>
+        </nav>
+
+
         @RenderBody()
     </div>
 

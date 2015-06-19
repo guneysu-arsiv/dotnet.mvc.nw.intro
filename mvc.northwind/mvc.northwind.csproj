@@ -88,6 +88,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\apple-touch-icon-114x114.png" />
+    <Content Include="Content\Images\apple-touch-icon-72x72.png" />
+    <Content Include="Content\Images\apple-touch-icon.png" />
+    <Content Include="Content\Images\favicon.ico" />
+    <Content Include="Content\Skeleton\base.css" />
+    <Content Include="Content\Skeleton\layout.css" />
+    <Content Include="Content\Skeleton\skeleton.css" />
+    <Content Include="Content\Skeleton\_Examples\Form.html" />
+    <Content Include="Content\Skeleton\_Examples\Grid.html" />
+    <Content Include="Content\Skeleton\_Examples\Typography.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -113,7 +123,11 @@
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Category\Index.cshtml" />
     <Content Include="Views\Category\Display.cshtml" />
+    <Content Include="Views\Layouts\Category\_layout.cshtml" />
+    <None Include="Views\Category\New.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Skeleton.Master" />
+    <Content Include="Views\Shared\_Skeleton.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

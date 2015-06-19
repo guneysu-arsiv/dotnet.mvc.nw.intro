@@ -8,14 +8,23 @@
 
 <h2>@ViewBag.Title</h2>
 
-<table border="1">
-    <tr>
-        <th>ID</th>
-        <th>Ad</th>
-        <th>Açıklama</th>
-        <th>Resim</th>
-        <th>Update</th>
-    </tr>
+
+
+<div>
+    @Html.ActionLink("Yeni", "New")
+</div>
+
+
+<table class="u-full-width">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ad</th>
+            <th>Açıklama</th>
+            <th>Resim</th>
+            <th>Update</th>
+        </tr>
+    </thead>
 
     @foreach (Category item in ViewBag.list)
     {
@@ -26,7 +35,7 @@
                 <td>@item.CategoryName</td>
                 <td>@item.Description</td>
                 <td>@item.Picture</td>
-                <td>@Html.ActionLink("Güncelle", "Display", new { id = item.CategoryID })</td>
+                <td>@Html.ActionLink("Güncelle", "Display", new {id = item.CategoryID})</td>
             </tr>
         }
 
